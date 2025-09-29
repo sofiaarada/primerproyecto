@@ -1,0 +1,168 @@
+<!DOCTYPE html> 
+<html lang="en">
+<html>
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilda Rada</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./Styles/Styles.css">
+  </head>
+  <body>
+    <header >
+      <div class="container">
+        <h1 class="portafolio">Portafolio</h1>
+        <nav>
+          <a href="#section-aboutme">Sobre mi</a>
+          <a href="#section-estudios">Estudios</a>
+          <a href="#section-references">Referencias</a>
+          <a href="#section-contact">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main>
+
+      <!----------SOBRE MI-------->
+      <section id="section-aboutme">
+        <h2 id="sobreMi">Sobre Mi</h2>
+        <p id="descripcion">
+          Soy Hilda Sofía Rada Beleño, asesora comercial con
+sólidos conocimientos en tecnología, marketing digital y
+habilidades creativas. Actualmente, soy aprendiz SENA
+en Análisis y Desarrollo de Software, donde he adquirido
+conocimientos básicos en HTML, CSS y Python. Mi
+experiencia abarca el uso avanzado de herramientas
+como Photoshop, la gestión de redes sociales y la
+implementación de estrategias de ventas, lo que me
+permite conectar de manera eficaz con los clientes y
+adaptarme rápidamente a los cambios del mercado.
+        </p>
+         <img id="perfil" src="./assets/img/perfil2.jpeg" alt="Foto de perfil">
+      </section>
+
+
+      <!-- Sección Habilidades -->
+      <section id="section-habilidades">
+        <h2>Habilidades</h2>
+        <div class="habilidad">
+          <span>HTML</span>
+          <div class="barra"><div class="progreso" data-valor="95"></div></div>
+          <span class="porcentaje">95%</span>
+        </div>
+        <div class="habilidad">
+          <span>CSS</span>
+          <div class="barra"><div class="progreso" data-valor="90"></div></div>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="habilidad">
+          <span>JavaScript</span>
+          <div class="barra"><div class="progreso" data-valor="70"></div></div>
+          <span class="porcentaje">70%</span>
+        </div>
+        <div class="habilidad">
+          <span>Python</span>
+          <div class="barra"><div class="progreso" data-valor="60"></div></div>
+          <span class="porcentaje">60%</span>
+        </div>
+        <div class="habilidad">
+          <span>Inglés</span>
+          <div class="barra"><div class="progreso" data-valor="80"></div></div>
+          <span class="porcentaje">80%</span>
+        </div>
+      </section>
+      <!---------ESTUDIOS---------->
+      <section id="section-estudios">
+        <h2 id="estudios">Estudios</h2>
+        <ul id="listaEstudios">
+          <li>
+            Colegio Distrital Maria Auxiliadora
+          <ul>
+            <li>Bachiller</li>
+            <li>2018-2024</li>
+          </ul>
+          </li>
+          <li>
+            SENA
+          <ul>
+            <li>Técnico en Asesoria Comercial</li>
+            <li>2022-2023</li>
+          </ul>
+          </li>
+          <li>
+            SENA
+            <ul>
+              <li>Análisis y Desarrollo de Software</li>
+              <li>En Proceso</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!---------REFERENCIAS---------->
+      <section id="section-references">
+        <h2>Referencias</h2>
+        <div class="referencias-grid">
+          <div class="referencia-card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ricardo Mario Cubillos Coll" class="referencia-foto">
+            <h3>Ricardo Mario Cubillos Coll</h3>
+            <p class="referencia-profesion">Administrador de Empresas</p>
+            <p class="referencia-extra">Especialista en Gerencia de Marketing<br>Docente Universitario<br>Instructor SENA</p>
+            <p class="referencia-contacto">📞 3184377172</p>
+          </div>
+          <div class="referencia-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Angie Liseth Rada Beleño" class="referencia-foto">
+            <h3>Angie Liseth Rada Beleño</h3>
+            <p class="referencia-profesion">Estudiante de Contaduría Pública</p>
+            <p class="referencia-extra">Asistente Administrativa Bilingüe</p>
+            <p class="referencia-contacto">📞 3107247249</p>
+          </div>
+        </div>
+      </section>
+
+      <!---------CONTACTO---------->
+      <section id="section-contact">
+        <article>
+        <h2 class="contacto">Contacto</h2>
+        <p class="numero">Número de Teléfono</p>
+        <p class="numero">3003834548</p>
+        <h3 class="correo-electronico">Correo Electrónico</h3>
+        <p class="correo">radahildasofia@gmail.com</p>
+        </article>
+        <article class="redes-sociales">
+          <h3>Redes Sociales</h3>
+          <ul>
+             <li><a class="red1" href="https://www.instagram.com/_pinksoffy/" target="_blank">Instagram</a></li>
+             <li><a class="red2" href="https://www.linkedin.com/in/hilda-rada-bele%C3%B1o-26773a318/" target="_blank">Linkedin</a></li>
+          </ul>
+        </article>
+        <p>Si tienes alguna pregunta o quieres contactarme, no dudes en usar el formulario de contacto a continuación:</p>
+        <form>
+          <fieldset>
+            <legend>Formulario de Contacto</legend>
+            <label> 
+            Nombre:
+            <input type="text" name="nombre">
+            </label>
+            <label>
+            Correo electrónico:
+            <input type="email" name="correo" id="" cols="30" rows="10" required></input>
+            </label>
+            <label>
+            Número de Telefono:
+            <input type="tel" name="telefono"></input>
+            </label>
+          </fieldset>
+          <button type="submit">Enviar</button>
+        </form> 
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2025 - Hilda Sofia Rada Beleño</p>
+    </footer>
+  </body>
+</html>
